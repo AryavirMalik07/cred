@@ -1,0 +1,21 @@
+.hero-section-wrapper {
+  position: relative;
+}
+.hero-section {
+  min-height: 100vh;
+  text-align: center;
+}
+.hero-heading {
+  font-size: 10.6rem;
+  font-weight: 700;
+}
+.button-wrapper {
+  cursor: pointer;
+  background-color: var(--white);
+  color: var(--bg-black);
+  font-size: 2.4rem;
+  font-weight: 700;
+  padding: 2rem 6.5rem;
+  width: max-content;
+  border-radius: 4rem;
+}
