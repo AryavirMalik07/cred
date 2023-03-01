@@ -1,0 +1,17 @@
+.feel-special {
+  background-color: var(--red-bg);
+  background-image: url(../images/feel-bg.webp);
+}
+
+@media all and (max-width: 1279px) {
+  .feel-special {
+    background-position: center bottom;
+  }
+}
+@media all and (max-width: 767px) {
+  .feel-special {
+    background-image: url(../images/mobile-feel-special.webp);
+    min-height: 115rem;
+    background-position: center;
+  }
+}

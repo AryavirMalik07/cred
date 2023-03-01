@@ -1,0 +1,17 @@
+.ExperienceSection {
+  background-color: var(--red-purple);
+  background-image: url(../images/ExperienceSection-bg.webp);
+}
+
+@media all and (max-width: 1279px) {
+  .ExperienceSection {
+    background-position: center bottom;
+  }
+}
+@media all and (max-width: 767px) {
+  .ExperienceSection {
+    background-image: url(../images/ExperienceSection-mob.webp);
+    min-height: 115rem;
+    background-position: center;
+  }
+}
