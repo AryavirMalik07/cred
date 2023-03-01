@@ -35,3 +35,31 @@
 .mobile-menu-button-wrapper {
   z-index: 2;
 }
+.mobile-nav-bar {
+  margin-top: 9.5rem;
+  overflow-y: scroll;
+  width: 90%;
+}
+.mobile-nav-item {
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  background-color: var(--bg-light-gray);
+  border: 1px solid transparent;
+  border-radius: 1.5rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+@media all and (max-width: 1279px) {
+  .header-logo {
+    height: 5.3rem;
+  }
+  .header-nav-item {
+    margin: 0 1.6rem 0 2rem;
+  }
+}
+@media all and (max-width: 767px) {
+  .header {
+    padding-bottom: 5rem;
+  }
+}

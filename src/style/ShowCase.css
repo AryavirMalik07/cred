@@ -1,0 +1,54 @@
+.ShowCase {
+  width: 100vw;
+  height: 80rem;
+  position: relative;
+  overflow: hidden;
+  background-image: url(../images/phone-ui-bg.webp);
+  background-size: cover;
+  background-position: right top;
+}
+.ShowCase-wrapper {
+  min-height: 70%;
+}
+.showcase-ui {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+}
+.showscase-img1 {
+  transform: translate(-160%, 25%);
+  z-index: 98;
+}
+.showscase-img2 {
+  transform: translate(-105%, 15%);
+  z-index: 99;
+}
+.showscase-img3 {
+  transform: translate(-50%, 5%);
+  z-index: 100;
+}
+.showscase-img4 {
+  transform: translate(5%, 15%);
+  z-index: 99;
+}
+.showscase-img5 {
+  transform: translate(60%, 25%);
+  z-index: 98;
+}
+
+@media all and (max-width: 1279px) {
+  .ShowCase {
+    height: 62rem;
+  }
+  .showcase-ui {
+    width: 30rem;
+  }
+}
+@media all and (max-width: 767px) {
+  .ShowCase {
+    height: 45rem;
+  }
+  .showcase-ui {
+    width: 17rem;
+  }
+}
