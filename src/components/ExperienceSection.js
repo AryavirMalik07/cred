@@ -22,7 +22,7 @@ const ExperienceSection = () => {
             </p>
           </div>
           <div className="flex absolute-center button-wrapper">
-            Experience the upgrade
+            Experience the upgradetftyttf
           </div>
         </div>
       </div>
