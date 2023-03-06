@@ -1,0 +1,27 @@
+.cred-turst {
+  background-color: var(--green-bg);
+  width: 100vw;
+  height: 90vh;
+  background-image: url("../images/trust-bg.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20rem 0 0rem 0;
+  background-position: right bottom;
+}
+.cred-trust-heading {
+  font-size: 6rem;
+  line-height: 6.4rem;
+  width: 40%;
+}
+.trust-text {
+  font-size: 1.8rem;
+  max-width: 55rem;
+  line-height: 28px;
+}
+.cred-trust-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  -webkit-box-pack: justify;
+  position: relative;
+}

@@ -8,6 +8,7 @@ import ShowCase from "../components/ShowCase";
 import BrandSection from "../components/BrandSection";
 import WindowPeak from "../components/WindowPeak";
 import MobileScroll from "../components/MobileScroll";
+import CredTrust from "../components/CredTrust";
 
 const Home = () => {
   return (
@@ -24,6 +25,7 @@ const Home = () => {
       </div>
 
       <SecurityFirst />
+      <CredTrust />
     </div>
   );
 };
