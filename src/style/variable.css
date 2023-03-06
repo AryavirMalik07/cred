@@ -4,4 +4,9 @@
   --bg-light-gray: rgba(39, 43, 45, 0.43);
   --red-bg: rgb(238, 47, 76);
   --purple-bg: rgb(26, 97, 233);
+  --dark-purple-bg: rgb(90, 30, 203);
+  --brand-bg: rgb(248, 248, 248);
+  --mobile-box-shadow: rgb(250 250 255 / 16%) 0px -5px 6px 0px inset,
+    rgb(38 37 37 / 24%) 4px 6px 11px 1px inset;
+  --mobile-bg: rgb(39, 43, 45);
 }

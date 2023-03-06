@@ -1,0 +1,8 @@
+.window-peak {
+  background-image: url("../images/window-peak.webp");
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 50rem;
+  background-size: cover;
+}

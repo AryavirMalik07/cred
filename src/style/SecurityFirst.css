@@ -1,0 +1,17 @@
+.SecurityFirst {
+  background-color: var(--dark-purple-bg);
+  background-image: url(../images/security-bg.webp);
+}
+
+@media all and (max-width: 1279px) {
+  .SecurityFirst {
+    background-position: center bottom;
+  }
+}
+@media all and (max-width: 767px) {
+  .SecurityFirst {
+    background-image: url(../images/security-bg-mobile.webp);
+    min-height: 115rem;
+    background-position: center;
+  }
+}
