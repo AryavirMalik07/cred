@@ -25,3 +25,24 @@
   -webkit-box-pack: justify;
   position: relative;
 }
+
+@media all and (max-width: 767px) {
+  .cred-turst {
+    height: 100vh;
+  }
+  .cred-trust-content {
+    flex-direction: column;
+    padding: 70px 40px;
+  }
+  .cred-trust-heading {
+    width: 100%;
+    font-size: 5.5rem;
+    line-height: 47.5px;
+    letter-spacing: -1.65px;
+  }
+  .trust-text {
+    font-size: 15px;
+    /* font-family: gilroy-medium; */
+    line-height: 24px;
+  }
+}

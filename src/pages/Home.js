@@ -9,6 +9,8 @@ import BrandSection from "../components/BrandSection";
 import WindowPeak from "../components/WindowPeak";
 import MobileScroll from "../components/MobileScroll";
 import CredTrust from "../components/CredTrust";
+import AppRating from "../components/AppRating";
+import Footer from "../components/Footer";
 
 const Home = () => {
   return (
@@ -26,6 +28,8 @@ const Home = () => {
 
       <SecurityFirst />
       <CredTrust />
+      <AppRating />
+      <Footer />
     </div>
   );
 };

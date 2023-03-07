@@ -35,7 +35,11 @@ const ScreenTextScroll = ({ screen, setCurrentImg, i }) => {
       <div className="mobile-mockup-wrapper only-mobile">
         <div className="mobile-mockup">
           <div className="mobile-mockup-screen absolute-center flex">
-            <img src={screen.mobileImage} className="mobile-screen-img" />
+            <img
+              alt="img"
+              src={screen.mobileImage}
+              className="mobile-screen-img"
+            />
           </div>
         </div>
       </div>

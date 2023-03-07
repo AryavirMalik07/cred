@@ -1,0 +1,50 @@
+.appRating {
+  padding: 20rem 0;
+  justify-content: space-around;
+}
+.app-rating-value {
+  font-size: 16rem;
+  padding-right: 1.6rem;
+  line-height: 12rem;
+  font-weight: 700;
+}
+.app-rating-star {
+  width: 17.9rem;
+  height: 2.8rem;
+}
+.app-rating-platform {
+  font-size: 6rem;
+  line-height: 5.5rem;
+  padding-left: 1.6rem;
+  font-weight: 700;
+}
+.app-rating-button {
+  padding: 1.5rem 3rem !important;
+  font-size: 2rem;
+  margin-top: 4rem;
+}
+.dowmload-button {
+  margin-top: 3rem;
+}
+.app-rating-section {
+  margin-bottom: 3rem;
+}
+
+@media all and (max-width: 1279px) {
+  .appRating {
+    padding: 7rem 0;
+    flex-direction: column;
+  }
+  .app-rating-value {
+    font-size: 10rem;
+  }
+  .app-rating-star {
+    width: 12rem;
+    height: 1.8rem;
+  }
+  .app-rating-platform {
+    font-size: 3.1rem;
+    line-height: 4.5rem;
+    align-self: center;
+  }
+}
