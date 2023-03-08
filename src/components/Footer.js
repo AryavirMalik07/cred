@@ -19,9 +19,7 @@ function Footer() {
           <i class="fa-brands fa-github cred-icon"></i>
         </a>
       </div>
-      <div className="footer-line absolute-center">
-        Made by Aryavir Malikjdj
-      </div>
+      <div className="footer-line absolute-center">Made by Aryavir Malik</div>
     </div>
   );
 }
